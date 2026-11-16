@@ -63,3 +63,31 @@ print("All unique foods:", mine | friend)
 print("Both like:", mine & friend)
 print("Only I like:", mine - friend)
 print("Only one likes:", mine ^ friend)
+
+
+
+
+
+
+
+
+
+words = {"cat": "kot", "dog": "pies", "house": "dom", "water": "woda"}
+
+
+print("Translation of 'cat':", words["cat"])
+print("Total pairs count:", len(words))
+
+
+words["book"] = "ksiazka"   
+words["dog"] = "szczeniak"  
+print("After adding and modifying:", words)
+
+
+words.update({"apple": "jablko", "sun": "slonce"})
+print("After update:", words)
+
+
+print("Keys list:", list(words.keys()))
+print("Values list:", list(words.values()))
+print("Pairs list:", list(words.items()))
