@@ -48,3 +48,18 @@ city_list = list(city)
 city_list[1] = "Germany"    
 city = tuple(city_list)
 print("Updated city tuple:", city)
+
+
+
+
+
+
+
+
+mine = {"pizza", "sushi", "pasta", "soup", "salad"}
+friend = {"burger", "sushi", "fries", "soup", "tacos"}
+
+print("All unique foods:", mine | friend)
+print("Both like:", mine & friend)
+print("Only I like:", mine - friend)
+print("Only one likes:", mine ^ friend)
